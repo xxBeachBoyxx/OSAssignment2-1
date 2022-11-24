@@ -77,9 +77,9 @@ void *countC(void *args) {
 int main(int argc, char* argv[]) {
 	pthread_t t[3];
 	int rc;
-	int p0 = 10;
-	int p1 = 10;
-	int p2 = 10;
+	int p0 = 50;
+	int p1 = 50;
+	int p2 = 50;  //5
 	FILE *f0, *f1, *f2;
 	pthread_attr_t attr0, attr1, attr2;
 	struct sched_param param0, param1, param2;
